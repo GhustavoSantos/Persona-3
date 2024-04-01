@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header 
+{
+    background-color: #0044cc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 
+{
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a 
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+main 
+{
+    padding: 20px;
+}
+
+section 
+{
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 
+{
+    color: #fff;
+}
+
+footer 
+{
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 0px  ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) 
+{
+    header 
+    {
+        padding: 10px;
+    }
+
+    nav ul li 
+    {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+#sobre img 
+{
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#historia img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 600px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sistemadetempo img 
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 500px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#personasearcanas img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 500px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#exploracaodedungeons img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 500px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+#sociallinks img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 500px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+#combateporturno img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 500px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}
+#tematicapsicologica img
+{
+    max-width: 100%; /* Define a largura máxima como 100% do contêiner pai */
+    width: 700px;
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção original */
+    display: block; /* Para alinhar a imagem horizontalmente no centro */
+    margin-left: auto;
+    margin-right: auto;
+}

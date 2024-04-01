@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Persona 3 - Cadastro</title>
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/loginstyle.css">
+
+<style>
+    /* Estilo para o botão de entrar */
+input[type="submit"] {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para quando o cursor está sobre o botão */
+input[type="submit"]:hover {
+    background-color: #003c99;
+}
+
+</style>
+
+</head>
+<body>
+<header>
+    <h1>Persona 3</h1>
+</header>
+
+<main>
+    <section id="cadastro">
+        <h2>Cadastro</h2>
+        <form action="../php/validar.php" method="post">
+            <label for="usuario">Nome:</label>
+            <input type="text" id="usuario" name="usuario" required>
+                <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+             <br>
+            <center>
+                <input type="submit" value="Entrar" id="submitBtn">
+            </center>
+    </form>
+        <p>Não tem uma conta? <a href="../html/cadastro.php">Faça uma aqui</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Persona 3. Gustavo Silva.</p>
+</footer>
+</body>
+</html>

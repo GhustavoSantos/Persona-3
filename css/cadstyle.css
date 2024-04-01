@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #0044cc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#submitBtn {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #003366;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilo para o campo de seleção de gênero */
+/* Estilo para o campo de seleção de gênero */
+select {
+    padding: 8px 12px; /* Adiciona espaço interno ao redor do texto */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 4px; /* Adiciona cantos arredondados */
+    font-size: 16px; /* Define o tamanho da fonte */
+    width: 100%; /* Faz com que o campo de seleção ocupe 100% da largura do contêiner pai */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior para separar de outros elementos */
+    background-color: #fff; /* Cor de fundo do campo de seleção */
+}
+
+/* Estilizando a opção padrão */
+select option {
+    padding: 10px; /* Adiciona espaço interno */
+}
+
+/* Estilizando as opções selecionadas */
+select option:checked {
+    background-color: #0044cc; /* Cor de fundo quando a opção está selecionada */
+    color: #fff; /* Cor do texto quando a opção está selecionada */
+}
+
